@@ -84,15 +84,19 @@ body {
     padding: 0.5em;
 }
 
-#contenutoPagina {
-    width: 50%;
+.contenutoGenerale {
+    width: 70%;
     margin-left: 20%;
     border-left: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
     padding: 1.5em 1.0em 3.0em 2.0em;
 }
 
-#contenutoPagina img {
+#contenutoHome {
+    width: 50%;
+    border-right: 1px solid #dddddd;
+}
+
+#contenutoHome img {
     width: 70%;
 }
 
@@ -112,3 +116,4 @@ body {
 #imgValidCSS {
     float: right;
 }
+

@@ -90,6 +90,9 @@ body {
     border-left: 1px solid #dddddd;
     padding: 1.5em 1.0em 3.0em 2.0em;
 }
+.contenutoGenerale h1 {
+    text-align: center;
+}
 
 #contenutoHome {
     width: 50%;
@@ -99,6 +102,64 @@ body {
 #contenutoHome img {
     width: 70%;
 }
+
+#characterStory {
+    width: 90%;
+    margin: auto;
+}
+
+#characterStory dt {
+    font-weight: bold;
+    background-color: maroon;
+    color: #ffffff;
+    padding: 0.9em;
+}
+
+#characterStory dd {
+    border: 1px solid #000000;
+    border-top: none;
+    padding: 0.5em;
+}
+
+#characterStory dd img {
+    width: 20%;
+    float: left;
+    margin-right: 1.0em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+#characterStory dd p {
+    margin-left: 25%;
+}
+
+#characterStory dd p.aiutoTornaSu {
+    text-align: right;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 1px solid #000000;
+}
+
+/* non e' necessario inserire table thead ma basta thead perche' thead sara' un tag che si trova solo in una table */
+
+table thead, table tfoot {
+    color: white;
+    background-color: maroon;
+}
+
+table td, table th{
+    padding: 0.5em;
+}
+
+
 
 #footer {
     text-align: center;
